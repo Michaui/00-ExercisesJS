@@ -83,7 +83,7 @@ class FancyLog {
   }
 
   log(message) {
-    // this.decorator = '❤️❤️'
+    this.decorator = '❤️❤️'
     this.#decoratedMessage = message; 
     console.log(this.#decoratedMessage);
   }
